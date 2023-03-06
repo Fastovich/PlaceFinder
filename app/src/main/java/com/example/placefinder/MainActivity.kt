@@ -16,7 +16,7 @@ import com.example.placefinder.ui.theme.ParkFinderTheme
         override fun onCreate(savedInstanceState: Bundle?) {
             super.onCreate(savedInstanceState)
             setContent {
-                PlaceFinderTheme {
+                ParkFinderTheme {
                     // A surface container using the 'background' color from the theme
                     Surface(
                         modifier = Modifier.fillMaxSize(),
@@ -36,7 +36,7 @@ fun Greeting(name: String) {
 @Preview(showBackground = true)
 @Composable
 fun DefaultPreview() {
-    PlaceFinderTheme {
+    ParkFinderTheme() {
         Greeting("Android")
     }
 }
