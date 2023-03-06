@@ -8,7 +8,7 @@ import kotlinx.coroutines.async
 import kotlinx.coroutines.withContext
 import retrofit2.awaitResponse
 
-class ParkServices {
+class ParkService {
     suspend fun fetchParks(): List<Park>? {
 
         return withContext(Dispatchers.IO) {
